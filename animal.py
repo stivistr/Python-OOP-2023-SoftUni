@@ -1,3 +1,3 @@
 class Animal:
-    def eat(self):
-        return "eating..."
+    def __init__(self, name: str):
+        self.name = name
